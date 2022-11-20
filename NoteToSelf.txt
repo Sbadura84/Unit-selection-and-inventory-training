@@ -1,0 +1,1 @@
+Unit drag deselects before selecting new units resulting in no selection
