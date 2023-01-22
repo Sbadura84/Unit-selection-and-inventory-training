@@ -53,6 +53,7 @@ public class UnitDrag : MonoBehaviour
     }
     void DrawVisual()
     {
+        //creating UI graphic of selection box
         Vector2 boxStart = startPosition;
         Vector2 boxEnd = endPosition;
         Vector2 boxCenter=(boxStart + boxEnd)/2;
@@ -65,6 +66,7 @@ public class UnitDrag : MonoBehaviour
     }
     void DrawSelection()
     {
+        //UI part of unit selection, creating data to draw select box
         //do X calc
         if(Input.mousePosition.x < startPosition.x)
         {

@@ -22,6 +22,7 @@ public class UnitClick : MonoBehaviour
             if (Physics.Raycast(ray, out hit, Mathf.Infinity,clickable))
             {
                 Debug.Log("hit");
+                //testing for multi select
                 if (Input.GetKey(KeyCode.LeftShift))
                 {
                     UnitSelections.Instance.ShiftClickSelect(hit.collider.gameObject);
@@ -42,6 +43,7 @@ public class UnitClick : MonoBehaviour
             }
         }
 
+        //visual marker action
         if (Input.GetMouseButtonDown(1))
         {
             RaycastHit hit;

@@ -68,8 +68,4 @@ public class UnitSelections : MonoBehaviour
         }
         unitsSelected.Clear();
     }
-    public void Deselect(GameObject unitToDeselect)
-    {
-
-    }
 }

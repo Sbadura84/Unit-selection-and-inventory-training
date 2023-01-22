@@ -18,6 +18,7 @@ public class UnitMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //initiating movement
         if (Input.GetMouseButtonDown(1))
         {
             RaycastHit hit;
